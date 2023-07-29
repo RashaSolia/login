@@ -1,0 +1,38 @@
+.login{
+    color: rgb(24,157,179);
+}
+body{
+    /* background-color: rgb(36,53,63); */
+background-color:rgb(35,51,60);
+}
+.form-control {
+    background-color: transparent;
+    /* color: #ffffff !important; */
+}
+.form-control:focus {
+    border-color: #86b7fe;
+    background-color: transparent;
+}
+.link , .link a{
+    color: #ffffff;
+}
+.link a{
+text-decoration: none;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+/* #alert{
+    padding: 0px 100px;
+} */
+::placeholder{
+    color: white !important;
+}
+#regesterBtn,#loginBtn{
+    color: #ffffff;
+
+}
+#logoutBtn{
+    width: 10%;
+    color: white;
+}
